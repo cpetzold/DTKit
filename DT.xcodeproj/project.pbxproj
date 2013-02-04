@@ -373,6 +373,7 @@
 		863D2C5B16C074070029C6B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENVIRONMENT_SUFFIX = "-dev";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DT/DT-Prefix.pch";
 				INFOPLIST_FILE = "DT/DT-Info.plist";
@@ -384,6 +385,7 @@
 		863D2C5C16C074070029C6B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENVIRONMENT_SUFFIX = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DT/DT-Prefix.pch";
 				INFOPLIST_FILE = "DT/DT-Info.plist";
