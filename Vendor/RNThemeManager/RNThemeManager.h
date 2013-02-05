@@ -18,6 +18,9 @@ extern NSString * const RNThemeManagerDidChangeThemes;
 // Dictionary of all styles for the current theme. KVO compatible but Notification is sent when changed.
 @property (nonatomic, strong, readonly) NSDictionary *styles;
 
+// Read the selected theme name
+@property (nonatomic, strong, readonly) NSString *currentThemeName;
+
 // Requires 2 keys per font entry. The first key's name doesn't matter, but the size key must be suffixed with "Size"
 // ie: @{ @"labelFont" : @"Helvetica", @"labelFontSize" : @15 }
 - (UIFont *)fontForKey:(NSString*)key;

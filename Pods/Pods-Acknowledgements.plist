@@ -170,6 +170,19 @@ SOFTWARE.</string>
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>All text and design is copyright © 2010-2012 TestFlight App, Inc.
+
+All rights reserved.
+
+https://testflightapp.com/tos/
+</string>
+			<key>Title</key>
+			<string>TestFlightSDK</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>iRate
 
 Version 1.7.2, January 14th, 2013

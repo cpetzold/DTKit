@@ -14,6 +14,7 @@ NSString * const RNThemeManagerDidChangeThemes = @"RNThemeManagerDidChangeThemes
 @interface RNThemeManager ()
 
 @property (nonatomic, strong, readwrite) NSDictionary *styles;
+@property (nonatomic, strong, readwrite) NSString *currentThemeName;
 
 @end
 
@@ -39,7 +40,8 @@ NSString * const RNThemeManagerDidChangeThemes = @"RNThemeManagerDidChangeThemes
             themeName = @"default";
         }
         
-        NSString *path = [[NSBundle mainBundle] pathForResource:themeName ofType:@"plist"];
+        _currentThemeName = themeName;
+        NSString *path = [[NSBundle mainBundle] pathForResource:_currentThemeName ofType:@"plist"];
         _styles = [NSDictionary dictionaryWithContentsOfFile:path];
     }
     return self;
@@ -55,7 +57,8 @@ NSString * const RNThemeManagerDidChangeThemes = @"RNThemeManagerDidChangeThemes
 #pragma mark - Actions
 
 - (void)changeTheme:(NSString *)themeName {
-    NSString *path = [[NSBundle mainBundle] pathForResource:themeName ofType:@"plist"];
+    self.currentThemeName = themeName;
+    NSString *path = [[NSBundle mainBundle] pathForResource:self.currentThemeName ofType:@"plist"];
     self.styles = [NSDictionary dictionaryWithContentsOfFile:path];
 }
 

@@ -59,6 +59,10 @@
     if (self.textColorKey) {
         self.textColor = [[RNThemeManager sharedManager] colorForKey:self.textColorKey];
     }
+    
+    if (self.backgroundColorKey) {
+        self.backgroundColor = [[RNThemeManager sharedManager] colorForKey:self.backgroundColorKey];
+    }
 }
 
 - (void)themeDidChangeNotification:(NSNotification *)notification {
