@@ -1,27 +1,33 @@
 
-COCOAPODS: 0.16.2
-
 DEPENDENCIES: 
 - AFNetworking (~> 1.1.0)
 - CocoaLumberjack
 - FlurrySDK (~> 4.1.0)
 - KeepLayout (~> 0.3.0)
 - Kiwi (~> 2.0.4)
+- RNThemeManager (from `~/Dev/Xcode/RNThemeManager')
 - Reachability (~> 3.1.0)
 - THObserversAndBinders (~> 1.0.0)
 - TestFlightSDK (~> 1.2.3.beta1)
 - iRate (~> 1.7.2)
 
+EXTERNAL SOURCES: 
+  RNThemeManager: 
+    :local: ~/Dev/Xcode/RNThemeManager
+
+COCOAPODS: 0.16.2
+
 SPEC CHECKSUMS: 
-  TestFlightSDK: f638b08651a37af099e40c47241fc58fd3cb1a66
-  FlurrySDK: 52245ae8c6fa31825dc74a6afb94b861da2435fa
   iRate: eb1d02ff0a2bfee220f5fe028583b4ce5f3ef3bd
-  Reachability: 1c8584c5f26fa776695efef95caaa50402c94cfb
-  CocoaLumberjack: 0f2fa7090a23f13261072d882e017c688300efbe
-  Kiwi: 44abe10fc11eb6a9e05d580211abd1f8fdb01260
-  AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
-  THObserversAndBinders: 5f0e709e8b704a8646ffdee9beb01a8aefc1dcb2
   KeepLayout: 11c6947048647e51d7c46cd121cad50d57a8c936
+  THObserversAndBinders: 5f0e709e8b704a8646ffdee9beb01a8aefc1dcb2
+  TestFlightSDK: f638b08651a37af099e40c47241fc58fd3cb1a66
+  RNThemeManager: b501ba1ede7adc8689f5d347eb637a111cab8df5
+  Kiwi: 44abe10fc11eb6a9e05d580211abd1f8fdb01260
+  FlurrySDK: 52245ae8c6fa31825dc74a6afb94b861da2435fa
+  AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
+  CocoaLumberjack: 0f2fa7090a23f13261072d882e017c688300efbe
+  Reachability: 1c8584c5f26fa776695efef95caaa50402c94cfb
 
 PODS: 
 - AFNetworking (1.1.0)
@@ -29,6 +35,7 @@ PODS:
 - FlurrySDK (4.1.0)
 - KeepLayout (0.3.0)
 - Kiwi (2.0.4)
+- RNThemeManager (0.0.1)
 - Reachability (3.1.0)
 - THObserversAndBinders (1.0.0)
 - TestFlightSDK (1.2.3.beta1)
