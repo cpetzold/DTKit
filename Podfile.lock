@@ -1,0 +1,32 @@
+
+DEPENDENCIES: 
+- AFNetworking (~> 1.1.0)
+- CocoaLumberjack
+- FlurrySDK (~> 4.1.0)
+- KeepLayout (~> 0.3.0)
+- Kiwi (~> 2.0.4)
+- Reachability (~> 3.1.0)
+- THObserversAndBinders (~> 1.0.0)
+- iRate (~> 1.7.2)
+
+COCOAPODS: 0.16.2
+
+SPEC CHECKSUMS: 
+  THObserversAndBinders: 5f0e709e8b704a8646ffdee9beb01a8aefc1dcb2
+  AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
+  Kiwi: 44abe10fc11eb6a9e05d580211abd1f8fdb01260
+  CocoaLumberjack: 0f2fa7090a23f13261072d882e017c688300efbe
+  Reachability: 1c8584c5f26fa776695efef95caaa50402c94cfb
+  KeepLayout: 11c6947048647e51d7c46cd121cad50d57a8c936
+  iRate: eb1d02ff0a2bfee220f5fe028583b4ce5f3ef3bd
+  FlurrySDK: 52245ae8c6fa31825dc74a6afb94b861da2435fa
+
+PODS: 
+- AFNetworking (1.1.0)
+- CocoaLumberjack (1.6)
+- FlurrySDK (4.1.0)
+- KeepLayout (0.3.0)
+- Kiwi (2.0.4)
+- Reachability (3.1.0)
+- THObserversAndBinders (1.0.0)
+- iRate (1.7.2)

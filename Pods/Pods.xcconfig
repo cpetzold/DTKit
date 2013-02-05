@@ -1,0 +1,9 @@
+ALWAYS_SEARCH_USER_PATHS = YES
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(DEVELOPER_LIBRARY_DIR)/Frameworks"
+HEADER_SEARCH_PATHS = ${PODS_HEADERS_SEARCH_PATHS}
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/FlurrySDK/Flurry"
+OTHER_LDFLAGS = -ObjC -lFlurry -framework MobileCoreServices -framework SenTestingKit -framework StoreKit -framework SystemConfiguration
+PODS_BUILD_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/AFNetworking" "${PODS_ROOT}/BuildHeaders/CocoaLumberjack" "${PODS_ROOT}/BuildHeaders/FlurrySDK" "${PODS_ROOT}/BuildHeaders/KeepLayout" "${PODS_ROOT}/BuildHeaders/Kiwi" "${PODS_ROOT}/BuildHeaders/Reachability" "${PODS_ROOT}/BuildHeaders/THObserversAndBinders" "${PODS_ROOT}/BuildHeaders/iRate"
+PODS_HEADERS_SEARCH_PATHS = ${PODS_PUBLIC_HEADERS_SEARCH_PATHS}
+PODS_PUBLIC_HEADERS_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/CocoaLumberjack" "${PODS_ROOT}/Headers/FlurrySDK" "${PODS_ROOT}/Headers/KeepLayout" "${PODS_ROOT}/Headers/Kiwi" "${PODS_ROOT}/Headers/Reachability" "${PODS_ROOT}/Headers/THObserversAndBinders" "${PODS_ROOT}/Headers/iRate"
+PODS_ROOT = ${SRCROOT}/Pods

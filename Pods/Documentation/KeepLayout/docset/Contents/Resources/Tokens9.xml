@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/KeepAttribute.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/KeepAttribute</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeepAttribute/initWithType:rules:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithType:(KeepAttributeType)type rules:(NSArray *)rules</Declaration>
+			
+			
+			<Anchor>//api/name/initWithType:rules:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeepAttribute/initWithType:relatedView:rules:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithType:(KeepAttributeType)type relatedView:(UIView *)view rules:(NSArray *)rules</Declaration>
+			
+			
+			<Anchor>//api/name/initWithType:relatedView:rules:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeepAttribute/setType:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) KeepAttributeType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KeepAttribute/type</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) KeepAttributeType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeepAttribute/setRelatedView:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, weak) UIView *relatedView</Declaration>
+			
+			
+			<Anchor>//api/name/relatedView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KeepAttribute/relatedView</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, weak) UIView *relatedView</Declaration>
+			
+			
+			<Anchor>//api/name/relatedView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeepAttribute/setRules:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSArray *rules</Declaration>
+			
+			
+			<Anchor>//api/name/rules</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KeepAttribute/rules</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, copy) NSArray *rules</Declaration>
+			
+			
+			<Anchor>//api/name/rules</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/KeepAttribute/rules:</TokenIdentifier>
+			<Abstract>Short Syntax contructor</Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)rules:(NSArray *)rules</Declaration>
+			
+			
+			<Anchor>//api/name/rules:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/KeepAttribute/to:rules:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)to:(UIView *)view rules:(NSArray *)rules</Declaration>
+			
+			
+			<Anchor>//api/name/to:rules:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeepAttribute/applyInView:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>			
+			
+			<Declaration>- (void)applyInView:(UIView *)view</Declaration>
+			
+			
+			<Anchor>//api/name/applyInView:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/KeepLeftInset.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/KeepLeftInset</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

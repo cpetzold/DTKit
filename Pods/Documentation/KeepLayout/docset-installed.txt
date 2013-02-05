@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/curiosity/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.KeepLayout-0.3.0.docset
+Time: 2013-02-05 15:20:00 +0000

@@ -1,0 +1,10 @@
+platform :ios, '6.0'
+
+pod 'Kiwi', '~> 2.0.4'
+pod 'AFNetworking', '~> 1.1.0'
+pod 'KeepLayout', '~> 0.3.0'
+pod 'THObserversAndBinders', '~> 1.0.0'
+pod 'FlurrySDK', '~> 4.1.0'
+pod 'iRate', '~> 1.7.2'
+pod 'CocoaLumberjack'
+pod 'Reachability', '~> 3.1.0'

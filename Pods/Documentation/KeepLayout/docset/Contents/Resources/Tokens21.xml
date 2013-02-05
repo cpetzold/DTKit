@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/KeepRule.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/KeepRule</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>
+			
+			<NodeRef refid="21"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeepRule/initWithType:value:relatedToView:priority:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithType:(KeepRuleType)type value:(CGFloat)value relatedToView:(UIView *)view priority:(KeepPriority)priority</Declaration>
+			
+			
+			<Anchor>//api/name/initWithType:value:relatedToView:priority:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeepRule/setType:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) KeepRuleType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KeepRule/type</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) KeepRuleType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeepRule/setValue:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGFloat value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KeepRule/value</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) CGFloat value</Declaration>
+			
+			
+			<Anchor>//api/name/value</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeepRule/setRelatedView:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, weak) UIView *relatedView</Declaration>
+			
+			
+			<Anchor>//api/name/relatedView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KeepRule/relatedView</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, weak) UIView *relatedView</Declaration>
+			
+			
+			<Anchor>//api/name/relatedView</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/KeepRule/setPriority:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) KeepPriority priority</Declaration>
+			
+			
+			<Anchor>//api/name/priority</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/KeepRule/priority</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, readonly, assign) KeepPriority priority</Declaration>
+			
+			
+			<Anchor>//api/name/priority</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/KeepRule/must:</TokenIdentifier>
+			<Abstract>Short Syntax constructors</Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)must:(CGFloat)value</Declaration>
+			
+			
+			<Anchor>//api/name/must:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/KeepRule/shall:</TokenIdentifier>
+			<Abstract>Priority Required</Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)shall:(CGFloat)value</Declaration>
+			
+			
+			<Anchor>//api/name/shall:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/KeepRule/may:</TokenIdentifier>
+			<Abstract>Priority High</Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)may:(CGFloat)value</Declaration>
+			
+			
+			<Anchor>//api/name/may:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/KeepRule/fit:</TokenIdentifier>
+			<Abstract>Priority Low</Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)fit:(CGFloat)value</Declaration>
+			
+			
+			<Anchor>//api/name/fit:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/KeepRule/must:to:</TokenIdentifier>
+			<Abstract>Priority Fitting Size
+Related to another view. E.g. set width to be double of another view's width.</Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)must:(CGFloat)value to:(UIView *)view</Declaration>
+			
+			
+			<Anchor>//api/name/must:to:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/KeepRule/shall:to:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)shall:(CGFloat)value to:(UIView *)view</Declaration>
+			
+			
+			<Anchor>//api/name/shall:to:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/KeepRule/may:to:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)may:(CGFloat)value to:(UIView *)view</Declaration>
+			
+			
+			<Anchor>//api/name/may:to:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/KeepRule/fit:to:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepRule.h</DeclaredIn>			
+			
+			<Declaration>+ (instancetype)fit:(CGFloat)value to:(UIView *)view</Declaration>
+			
+			
+			<Anchor>//api/name/fit:to:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

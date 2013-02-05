@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/UIView+KeepLayout.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/UIView(KeepLayout)</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>UIView+KeepLayout.h</DeclaredIn>
+			
+			<NodeRef refid="26"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(KeepLayout)/keep:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>UIView+KeepLayout.h</DeclaredIn>			
+			
+			<Declaration>- (void)keep:(KeepAttribute *)attribute</Declaration>
+			
+			
+			<Anchor>//api/name/keep:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/UIView(KeepLayout)/commonAncestor:</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>UIView+KeepLayout.h</DeclaredIn>			
+			
+			<Declaration>- (UIView *)commonAncestor:(UIView *)anotherView</Declaration>
+			
+			
+			<Anchor>//api/name/commonAncestor:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

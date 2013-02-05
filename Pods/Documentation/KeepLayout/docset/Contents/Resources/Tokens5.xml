@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/KeepAlignLeft.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/KeepAlignLeft</TokenIdentifier>
+			<Abstract></Abstract>
+			<DeclaredIn>KeepAttribute.h</DeclaredIn>
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+	</File>
+</Tokens>

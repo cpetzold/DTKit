@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>KeepLayout 0.3.0</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
+						<NodeRef refid="23"/>
+						<NodeRef refid="24"/>
+						<NodeRef refid="25"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				<Node type="folder">
+					<Name>Categories</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="26"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		<Node id="1">
+			<Name>KeepAlignBaseline</Name>
+			<Path>Classes/KeepAlignBaseline.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>KeepAlignBottom</Name>
+			<Path>Classes/KeepAlignBottom.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>KeepAlignCenterX</Name>
+			<Path>Classes/KeepAlignCenterX.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>KeepAlignCenterY</Name>
+			<Path>Classes/KeepAlignCenterY.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>KeepAlignLeft</Name>
+			<Path>Classes/KeepAlignLeft.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>KeepAlignRight</Name>
+			<Path>Classes/KeepAlignRight.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>KeepAlignTop</Name>
+			<Path>Classes/KeepAlignTop.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>KeepAspectRatio</Name>
+			<Path>Classes/KeepAspectRatio.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>KeepAttribute</Name>
+			<Path>Classes/KeepAttribute.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>KeepBottomInset</Name>
+			<Path>Classes/KeepBottomInset.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>KeepBottomOffset</Name>
+			<Path>Classes/KeepBottomOffset.html</Path>
+		</Node>
+		<Node id="12">
+			<Name>KeepEqual</Name>
+			<Path>Classes/KeepEqual.html</Path>
+		</Node>
+		<Node id="13">
+			<Name>KeepHeight</Name>
+			<Path>Classes/KeepHeight.html</Path>
+		</Node>
+		<Node id="14">
+			<Name>KeepHorizontally</Name>
+			<Path>Classes/KeepHorizontally.html</Path>
+		</Node>
+		<Node id="15">
+			<Name>KeepLeftInset</Name>
+			<Path>Classes/KeepLeftInset.html</Path>
+		</Node>
+		<Node id="16">
+			<Name>KeepLeftOffset</Name>
+			<Path>Classes/KeepLeftOffset.html</Path>
+		</Node>
+		<Node id="17">
+			<Name>KeepMax</Name>
+			<Path>Classes/KeepMax.html</Path>
+		</Node>
+		<Node id="18">
+			<Name>KeepMin</Name>
+			<Path>Classes/KeepMin.html</Path>
+		</Node>
+		<Node id="19">
+			<Name>KeepRightInset</Name>
+			<Path>Classes/KeepRightInset.html</Path>
+		</Node>
+		<Node id="20">
+			<Name>KeepRightOffset</Name>
+			<Path>Classes/KeepRightOffset.html</Path>
+		</Node>
+		<Node id="21">
+			<Name>KeepRule</Name>
+			<Path>Classes/KeepRule.html</Path>
+		</Node>
+		<Node id="22">
+			<Name>KeepTopInset</Name>
+			<Path>Classes/KeepTopInset.html</Path>
+		</Node>
+		<Node id="23">
+			<Name>KeepTopOffset</Name>
+			<Path>Classes/KeepTopOffset.html</Path>
+		</Node>
+		<Node id="24">
+			<Name>KeepVertically</Name>
+			<Path>Classes/KeepVertically.html</Path>
+		</Node>
+		<Node id="25">
+			<Name>KeepWidth</Name>
+			<Path>Classes/KeepWidth.html</Path>
+		</Node>
+		
+		<Node id="26">
+			<Name>UIView(KeepLayout)</Name>
+			<Path>Categories/UIView+KeepLayout.html</Path>
+		</Node>
+		
+		
+	</Library>
+</DocSetNodes>
