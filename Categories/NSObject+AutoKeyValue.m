@@ -32,7 +32,7 @@
     unsigned int propertyCount;
     objc_property_t *properties = class_copyPropertyList([self class], &propertyCount);
     
-    for (int i=0; i<propertyCount; i++) {
+    for (int i=0; i < (int) propertyCount; i++) {
         objc_property_t property = properties[i];
         const char *propertyName = property_getName(property);
         NSString *keyName = [NSString stringWithUTF8String:propertyName];
@@ -54,6 +54,7 @@
                     if (strlen(typeEncoding) >= 3) {
                         char *className = strndup(typeEncoding+2, strlen(typeEncoding)-3);
                         class = NSClassFromString([NSString stringWithUTF8String:className]);
+                        free(className);
                     }
                     // Check for type mismatch, attempt to compensate
                     if ([class isSubclassOfClass:[NSString class]] && [value isKindOfClass:[NSNumber class]]) {

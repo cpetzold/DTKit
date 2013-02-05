@@ -1,4 +1,4 @@
-Project Name
+DTKit
 ====
 
 # Third Party Docs
@@ -11,3 +11,7 @@ Project Name
 * [CocoaLumberjack](https://github.com/robbiehanson/CocoaLumberjack)
 * [Flurry](http://www.flurry.com)
 * [Reachability](https://github.com/tonymillion/Reachability)
+
+# Conventions
+
+[Here](https://github.com/Dynamit/DTKit/blob/master/CONVENTIONS.md) is a link for Objective-C and project conventions that should be conformed to at all times.

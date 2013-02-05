@@ -15,3 +15,21 @@ profile
 DerivedData
 .idea/
 *.hmap
+# OS X Finder
+
+# Xcode per-user config
+*.mode1
+*.perspective
+# Build products
+build/
+*.o
+*.LinkFileList
+# Automatic backup files
+*~.nib/
+*.swp
+*~
+*.dat
+*.dep
+# Cocoapods
+Pods
+Podfile.lock
